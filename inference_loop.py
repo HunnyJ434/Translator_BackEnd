@@ -2,7 +2,7 @@ from transformers import GPT2Tokenizer, GPT2LMHeadModel
 import torch
 
 # Load fine-tuned model and tokenizer
-model_path = "./ojibwe-gpt2"
+model_path = "./wordpair-gpt2"
 tokenizer = GPT2Tokenizer.from_pretrained(model_path)
 model = GPT2LMHeadModel.from_pretrained(model_path)
 
